@@ -1,0 +1,45 @@
+Kepler KOI student file (CS 598 PSL, Fall 2026)
+Source: NASA Exoplanet Archive, cumulative KOI table
+https://exoplanetarchive.ipac.caltech.edu
+Retrieved 2026-09-04 via TAP (table = cumulative).
+
+Rows: objects with koi_disposition in {CONFIRMED, FALSE POSITIVE}.
+CANDIDATE rows were dropped (no settled label).
+Identifiers and physical columns only. Official false-positive flags,
+koi_score, and koi_pdisposition are not in this file.
+
+n = 7587
+  CONFIRMED       2748
+  FALSE POSITIVE  4839
+
+Columns
+-------
+kepoi_name       KOI identifier (ID only; do not use as a predictor)
+koi_disposition  Response: CONFIRMED or FALSE POSITIVE
+
+Transit / planet
+koi_period       Orbital period (days)
+koi_duration     Transit duration (hours)
+koi_depth        Transit depth (ppm)
+koi_impact       Impact parameter
+koi_model_snr    Transit model signal-to-noise
+koi_prad         Planet radius (Earth radii)
+koi_teq          Equilibrium temperature (K)
+koi_insol        Insolation (Earth flux)
+koi_sma          Semi-major axis (au)
+koi_incl         Inclination (deg)
+koi_ror          Planet-to-star radius ratio
+
+Host star
+koi_steff        Stellar effective temperature (K)
+koi_slogg        Stellar surface gravity (log10 cm s^-2)
+koi_srad         Stellar radius (solar radii)
+koi_smass        Stellar mass (solar masses)
+koi_smet         Stellar metallicity [Fe/H]
+koi_kepmag       Kepler-band magnitude
+koi_srho         Stellar density (g cm^-3)
+
+Missingness: about 4% on several physical columns. Handle with
+training-set information only.
+
+Please cite the NASA Exoplanet Archive if you reuse the file.
