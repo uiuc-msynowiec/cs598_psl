@@ -7830,7 +7830,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -8051,7 +8051,7 @@ sets:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -8084,7 +8084,7 @@ sets:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># cleanup dataset</span>
@@ -8161,7 +8161,7 @@ sets:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sklearn</span>
@@ -8267,7 +8267,7 @@ sets:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">X_train</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -8319,7 +8319,7 @@ sets:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
@@ -8388,7 +8388,7 @@ sets:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.model_selection</span><span class="w"> </span><span class="kn">import</span> <span class="n">GridSearchCV</span>
@@ -8438,7 +8438,7 @@ sets:</p>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Unpruned test MSE: 326.5037773722628
+<pre>Unpruned test MSE: 327.0156386861314
 Pruned test MSE: 210.12377668826724 | ccp_alpha: 5.332026816564323
 </pre>
 </div>
@@ -8488,7 +8488,7 @@ Public-only tree, top splits:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>The pruned tree did better: its test MSE was 210, compared with 314 for the unpruned tree. Pruning with cross-validation removed splits that were fitting noise in the training data, so the smaller tree generalized better. Both the pooled and public-only trees start with AvgSAT at the same cutoff (1213), so the first split matches. The second splits do not fully match. On the left (lower SAT), the pooled tree uses Pell (student mix, at 32.95), while the public-only tree uses Enrollment (at 12802.5). Among less selective public schools, the larger schools (Enrollment above 12802.5) have a higher average completion rate (60.8%) than the smaller ones (45.2%). On the right (higher SAT), both trees split on AvgSAT again, but at slightly different cutoffs (1324.0 for pooled, 1334.0 for public-only). The third layer of the public-only tree uses HighDegree and PartTime on the left, and PctWomen and AdmitRate on the right. None of these appeared in the pooled tree. This suggests the pooled tree is averaging different kinds of institutions together. Pell stands in for the public/private/profit mix in the pooled tree, but once we only look at public schools, school size and the type of student body (part-time share, degree level) matter more. Selectivity (AvgSAT) is the one thing that stays important in both trees.</strong></p>
+<p><strong>The pruned tree did better: its test MSE was 210, compared with 327 for the unpruned tree. Pruning with cross-validation removed splits that were fitting noise in the training data, so the smaller tree generalized better. Both the pooled and public-only trees start with AvgSAT at the same cutoff (1213), so the first split matches. The second splits do not fully match. On the left (lower SAT), the pooled tree uses Pell (student mix, at 32.95), while the public-only tree uses Enrollment (at 12802.5). Among less selective public schools, the larger schools (Enrollment above 12802.5) have a higher average completion rate (60.8%) than the smaller ones (45.2%). On the right (higher SAT), both trees split on AvgSAT again, but at slightly different cutoffs (1324.0 for pooled, 1334.0 for public-only). The third layer of the public-only tree uses HighDegree and PartTime on the left, and PctWomen and AdmitRate on the right. None of these appeared in the pooled tree. This suggests the pooled tree is averaging different kinds of institutions together. Pell stands in for the public/private/profit mix in the pooled tree, but once we only look at public schools, school size and the type of student body (part-time share, degree level) matter more. Selectivity (AvgSAT) is the one thing that stays important in both trees.</strong></p>
 </div>
 </div>
 </div>
@@ -8508,7 +8508,7 @@ Public-only tree, top splits:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -8552,33 +8552,33 @@ Public-only tree, top splits:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Random forest (max_features=13, ~p/3) test MSE: 151.5127
-Random forest (max_features='sqrt') test MSE: 149.8380
+<pre>Random forest (max_features=13, ~p/3) test MSE: 151.8414
+Random forest (max_features='sqrt') test MSE: 149.9331
 
 Top 10 feature importances (max_features='sqrt' forest):
-TuitionOut     0.096103
-AvgSAT         0.089170
-Pell           0.082335
-TuitionIn      0.065868
-Cost           0.062762
-InstructFTE    0.060082
-MidACT         0.054473
-FacSalary      0.053146
-Black          0.042490
-TuitionFTE     0.042006
+TuitionOut     0.095817
+AvgSAT         0.089384
+Pell           0.082150
+TuitionIn      0.065945
+Cost           0.063520
+InstructFTE    0.059939
+MidACT         0.054960
+FacSalary      0.053342
+Black          0.042175
+TuitionFTE     0.041658
 dtype: float64
 
 Top 10 feature importances (max_features=13, ~p/3 forest):
-AvgSAT         0.143226
-TuitionOut     0.118426
-Pell           0.097936
-MidACT         0.058130
-Cost           0.055220
-TuitionIn      0.054483
-InstructFTE    0.051004
-FacSalary      0.040391
-Black          0.039637
-Enrollment     0.036115
+AvgSAT         0.143370
+TuitionOut     0.118075
+Pell           0.097318
+MidACT         0.058893
+TuitionIn      0.055561
+Cost           0.054943
+InstructFTE    0.050017
+FacSalary      0.040939
+Black          0.039888
+AdmitRate      0.036336
 dtype: float64
 </pre>
 </div>
@@ -8604,7 +8604,7 @@ dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>The two random forests performed basically the same. The sqrt model did slightly better, but the difference in test MSE was only about 0.10. Both models identified AvgSAT, TuitionOut, and Pell as the most important predictors. The p/3 model relied more heavily on AvgSAT, while the sqrt model spread importance more evenly across TuitionIn, Cost, InstructFTE, FacSalary, and other test-score variables. TuitionIn is the 4th most important and is not present in the single trees in previous problems. The reason is likely that TuitionIn and TuitionOut are highly correlated and compete in a single tree; TuitionOut is slightly better overall apparently. With random forests, in some trees, TuitionOut does NOT appear in the optional features and so TuitionIn is chosen. The random forrest is the accumulation/average of all of these trees.</strong></p>
+<p><strong>The two random forests performed basically the same. The sqrt model did slightly better, but the difference in test MSE was only about 1.9. Both models identified AvgSAT, TuitionOut, and Pell as the most important predictors. The p/3 model relied more heavily on AvgSAT, while the sqrt model spread importance more evenly across TuitionIn, Cost, InstructFTE, FacSalary, and other test-score variables. TuitionIn is the 4th most important and is not present in the single trees in previous problems. The reason is likely that TuitionIn and TuitionOut are highly correlated and compete in a single tree; TuitionOut is slightly better overall apparently. With random forests, in some trees, TuitionOut does NOT appear in the optional features and so TuitionIn is chosen. The random forrest is the accumulation/average of all of these trees.</strong></p>
 </div>
 </div>
 </div>
@@ -8624,7 +8624,7 @@ dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#  better of the two forests from (d)</span>
@@ -8662,7 +8662,7 @@ dtype: float64
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Pruned tree test MSE: 210.12
-Random forest test MSE: 149.84
+Random forest test MSE: 149.93
 
 </pre>
 </div>
@@ -8704,19 +8704,19 @@ Random forest test MSE: 149.84
 <th>Public</th>
 <td>173</td>
 <td>165.38</td>
-<td>63.60</td>
+<td>64.28</td>
 </tr>
 <tr>
 <th>Private</th>
 <td>335</td>
 <td>202.35</td>
-<td>171.87</td>
+<td>171.81</td>
 </tr>
 <tr>
 <th>Profit</th>
 <td>40</td>
 <td>468.79</td>
-<td>338.30</td>
+<td>337.20</td>
 </tr>
 </tbody>
 </table>
@@ -8754,7 +8754,7 @@ Random forest test MSE: 149.84
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.ensemble</span><span class="w"> </span><span class="kn">import</span> <span class="n">GradientBoostingRegressor</span>
@@ -8866,7 +8866,7 @@ dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.linear_model</span><span class="w"> </span><span class="kn">import</span> <span class="n">LinearRegression</span>
@@ -8910,7 +8910,7 @@ dtype: float64
 <pre>Mean baseline test MSE: 405.409540640721
 Control-mean baseline test MSE: 397.9536747099963
 Pruned tree test MSE: 210.12377668826724
-Random forest test MSE: 149.8380255704379
+Random forest test MSE: 149.933124189708
 GBM test MSE: 162.40910147458598
 Linear regression test MSE: 168.95721458094994
 </pre>
@@ -8951,7 +8951,7 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">test_public_schools</span> <span class="o">=</span> <span class="n">X_test</span><span class="p">[</span><span class="n">control_test</span> <span class="o">==</span> <span class="s2">"Public"</span><span class="p">]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">RANDOM_SEED</span><span class="p">)</span>
@@ -8992,7 +8992,7 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9028,9 +9028,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>University of Wisconsin-Madison</td>
 <td>Public</td>
 <td>14.9</td>
-<td>83.3454</td>
+<td>83.3332</td>
 <td>89.2</td>
-<td>5.8546</td>
+<td>5.8668</td>
 <td>False</td>
 <td>False</td>
 </tr>
@@ -9039,9 +9039,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>Pennsylvania State University-Penn State Shenango</td>
 <td>Public</td>
 <td>35.4</td>
-<td>38.8092</td>
+<td>39.3988</td>
 <td>23.3</td>
-<td>-15.5092</td>
+<td>-16.0988</td>
 <td>True</td>
 <td>True</td>
 </tr>
@@ -9050,9 +9050,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>Illinois State University</td>
 <td>Public</td>
 <td>30.3</td>
-<td>57.6922</td>
+<td>57.4474</td>
 <td>67.0</td>
-<td>9.3078</td>
+<td>9.5526</td>
 <td>False</td>
 <td>False</td>
 </tr>
@@ -9061,9 +9061,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>Caldwell University</td>
 <td>Private</td>
 <td>47.1</td>
-<td>56.6646</td>
+<td>56.3790</td>
 <td>68.0</td>
-<td>11.3354</td>
+<td>11.6210</td>
 <td>True</td>
 <td>False</td>
 </tr>
@@ -9072,9 +9072,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>Congregation Talmidei Mesivta Tiferes Shmiel A...</td>
 <td>Private</td>
 <td>72.7</td>
-<td>36.7330</td>
+<td>36.8780</td>
 <td>14.0</td>
-<td>-22.7330</td>
+<td>-22.8780</td>
 <td>True</td>
 <td>True</td>
 </tr>
@@ -9083,9 +9083,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>Adrian College</td>
 <td>Private</td>
 <td>30.9</td>
-<td>53.8064</td>
+<td>54.0236</td>
 <td>50.6</td>
-<td>-3.2064</td>
+<td>-3.4236</td>
 <td>False</td>
 <td>False</td>
 </tr>
@@ -9094,9 +9094,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>The Art Institute of Houston</td>
 <td>Profit</td>
 <td>48.9</td>
-<td>25.3782</td>
+<td>25.1874</td>
 <td>40.8</td>
-<td>15.4218</td>
+<td>15.6126</td>
 <td>True</td>
 <td>True</td>
 </tr>
@@ -9105,9 +9105,9 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 <td>American Medical Sciences Center</td>
 <td>Profit</td>
 <td>63.1</td>
-<td>50.0626</td>
+<td>49.8056</td>
 <td>68.4</td>
-<td>18.3374</td>
+<td>18.5944</td>
 <td>True</td>
 <td>True</td>
 </tr>
@@ -9137,7 +9137,7 @@ Linear regression is being tested in the above cell, Part 1h. The advantage of a
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>The random forest was chosen as the preferred Part I model. Congregation Talmidei Mesivta Tiferes Shmiel Aleksander has the largest absolute residual of 22.7330. The model over-predicted for this observation since the observed completion rate was 14.0% and the prediction completion rate was 37.7330%. The school is a private school.</strong></p>
+<p><strong>The random forest was chosen as the preferred Part I model. Congregation Talmidei Mesivta Tiferes Shmiel Aleksander has the largest absolute residual of 22.8780. The model over-predicted for this observation since the observed completion rate was 14.0% and the prediction completion rate was 36.8780%. The school is a private school.</strong></p>
 </div>
 </div>
 </div>
