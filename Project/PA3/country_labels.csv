@@ -1,0 +1,193 @@
+country,country_code,un_regional_group,in_window_A,in_window_B
+Afghanistan,AF,Asia-Pacific,1,1
+Albania,AL,Eastern European,1,1
+Algeria,DZ,African,1,1
+Andorra,AD,WEOG,1,1
+Angola,AO,African,1,1
+Antigua & Barbuda,AG,GRULAC,1,1
+Argentina,AR,GRULAC,1,1
+Armenia,AM,Eastern European,1,1
+Australia,AU,WEOG,1,1
+Austria,AT,WEOG,1,1
+Azerbaijan,AZ,Eastern European,1,1
+Bahamas,BS,GRULAC,1,1
+Bahrain,BH,Asia-Pacific,1,1
+Bangladesh,BD,Asia-Pacific,1,1
+Barbados,BB,GRULAC,1,1
+Belarus,BY,Eastern European,1,1
+Belgium,BE,WEOG,1,1
+Belize,BZ,GRULAC,1,1
+Benin,BJ,African,1,1
+Bhutan,BT,Asia-Pacific,1,1
+Bolivia,BO,GRULAC,1,1
+Bosnia & Herzegovina,BA,Eastern European,1,1
+Botswana,BW,African,1,1
+Brazil,BR,GRULAC,1,1
+Brunei,BN,Asia-Pacific,1,1
+Bulgaria,BG,Eastern European,1,1
+Burkina Faso,BF,African,1,1
+Burundi,BI,African,1,1
+Cambodia,KH,Asia-Pacific,1,1
+Cameroon,CM,African,1,1
+Canada,CA,WEOG,1,1
+Cape Verde,CV,African,1,1
+Central African Republic,CF,African,1,1
+Chad,TD,African,1,1
+Chile,CL,GRULAC,1,1
+China,CN,Asia-Pacific,1,1
+Colombia,CO,GRULAC,1,1
+Comoros,KM,African,1,1
+Congo - Brazzaville,CG,African,1,1
+Congo - Kinshasa,CD,African,1,1
+Costa Rica,CR,GRULAC,1,1
+Croatia,HR,Eastern European,1,1
+Cuba,CU,GRULAC,1,1
+Cyprus,CY,Asia-Pacific,1,1
+Czechia,CZ,Eastern European,1,1
+Côte d’Ivoire,CI,African,1,1
+Denmark,DK,WEOG,1,1
+Djibouti,DJ,African,1,1
+Dominica,DM,GRULAC,1,1
+Dominican Republic,DO,GRULAC,1,1
+Ecuador,EC,GRULAC,1,1
+Egypt,EG,African,1,1
+El Salvador,SV,GRULAC,1,1
+Equatorial Guinea,GQ,African,1,1
+Eritrea,ER,African,1,1
+Estonia,EE,Eastern European,1,1
+Eswatini,SZ,African,1,1
+Ethiopia,ET,African,1,1
+Fiji,FJ,Asia-Pacific,1,1
+Finland,FI,WEOG,1,1
+France,FR,WEOG,1,1
+Gabon,GA,African,1,1
+Gambia,GM,African,1,1
+Georgia,GE,Eastern European,1,1
+Germany,DE,WEOG,1,1
+Ghana,GH,African,1,1
+Greece,GR,WEOG,1,1
+Grenada,GD,GRULAC,1,1
+Guatemala,GT,GRULAC,1,1
+Guinea,GN,African,1,1
+Guinea-Bissau,GW,African,1,1
+Guyana,GY,GRULAC,1,1
+Haiti,HT,GRULAC,1,1
+Honduras,HN,GRULAC,1,1
+Hungary,HU,Eastern European,1,1
+Iceland,IS,WEOG,1,1
+India,IN,Asia-Pacific,1,1
+Indonesia,ID,Asia-Pacific,1,1
+Iran,IR,Asia-Pacific,1,1
+Iraq,IQ,Asia-Pacific,1,1
+Ireland,IE,WEOG,1,1
+Israel,IL,WEOG,1,1
+Italy,IT,WEOG,1,1
+Jamaica,JM,GRULAC,1,1
+Japan,JP,Asia-Pacific,1,1
+Jordan,JO,Asia-Pacific,1,1
+Kazakhstan,KZ,Asia-Pacific,1,1
+Kenya,KE,African,1,1
+Kiribati,KI,Asia-Pacific,1,1
+Kuwait,KW,Asia-Pacific,1,1
+Kyrgyzstan,KG,Asia-Pacific,1,1
+Laos,LA,Asia-Pacific,1,1
+Latvia,LV,Eastern European,1,1
+Lebanon,LB,Asia-Pacific,1,1
+Lesotho,LS,African,1,1
+Liberia,LR,African,1,1
+Libya,LY,African,1,1
+Liechtenstein,LI,WEOG,1,1
+Lithuania,LT,Eastern European,1,1
+Luxembourg,LU,WEOG,1,1
+Madagascar,MG,African,1,1
+Malawi,MW,African,1,1
+Malaysia,MY,Asia-Pacific,1,1
+Maldives,MV,Asia-Pacific,1,1
+Mali,ML,African,1,1
+Malta,MT,WEOG,1,1
+Marshall Islands,MH,Asia-Pacific,1,1
+Mauritania,MR,African,1,1
+Mauritius,MU,African,1,1
+Mexico,MX,GRULAC,1,1
+Micronesia (Federated States of),FM,Asia-Pacific,1,1
+Moldova,MD,Eastern European,1,1
+Monaco,MC,WEOG,1,1
+Mongolia,MN,Asia-Pacific,1,1
+Montenegro,ME,Eastern European,1,1
+Morocco,MA,African,1,1
+Mozambique,MZ,African,1,1
+Myanmar (Burma),MM,Asia-Pacific,1,1
+Nauru,NR,Asia-Pacific,1,1
+Nepal,NP,Asia-Pacific,1,1
+Netherlands,NL,WEOG,1,1
+New Zealand,NZ,WEOG,1,1
+Nicaragua,NI,GRULAC,1,1
+Niger,NE,African,1,1
+Nigeria,NG,African,1,1
+North Korea,KP,Asia-Pacific,1,1
+North Macedonia,MK,Eastern European,1,1
+Norway,NO,WEOG,1,1
+Oman,OM,Asia-Pacific,1,1
+Pakistan,PK,Asia-Pacific,1,1
+Palau,PW,Asia-Pacific,1,1
+Panama,PA,GRULAC,1,1
+Papua New Guinea,PG,Asia-Pacific,1,1
+Paraguay,PY,GRULAC,1,1
+Peru,PE,GRULAC,1,1
+Philippines,PH,Asia-Pacific,1,1
+Poland,PL,Eastern European,1,1
+Portugal,PT,WEOG,1,1
+Qatar,QA,Asia-Pacific,1,1
+Romania,RO,Eastern European,1,1
+Russia,RU,Eastern European,1,1
+Rwanda,RW,African,1,1
+Samoa,WS,Asia-Pacific,1,1
+San Marino,SM,WEOG,1,1
+Saudi Arabia,SA,Asia-Pacific,1,1
+Senegal,SN,African,1,1
+Seychelles,SC,African,1,1
+Sierra Leone,SL,African,1,1
+Singapore,SG,Asia-Pacific,1,1
+Slovakia,SK,Eastern European,1,1
+Slovenia,SI,Eastern European,1,1
+Solomon Islands,SB,Asia-Pacific,1,1
+Somalia,SO,African,1,1
+South Africa,ZA,African,1,1
+South Korea,KR,Asia-Pacific,1,1
+South Sudan,SS,African,1,1
+Spain,ES,WEOG,1,1
+Sri Lanka,LK,Asia-Pacific,1,1
+St. Kitts & Nevis,KN,GRULAC,1,1
+St. Lucia,LC,GRULAC,1,1
+St. Vincent & Grenadines,VC,GRULAC,1,1
+Sudan,SD,African,1,1
+Suriname,SR,GRULAC,1,1
+Sweden,SE,WEOG,1,1
+Switzerland,CH,WEOG,1,1
+Syria,SY,Asia-Pacific,1,1
+São Tomé & Príncipe,ST,African,1,1
+Tajikistan,TJ,Asia-Pacific,1,1
+Tanzania,TZ,African,1,1
+Thailand,TH,Asia-Pacific,1,1
+Timor-Leste,TL,Asia-Pacific,1,1
+Togo,TG,African,1,1
+Tonga,TO,Asia-Pacific,1,1
+Trinidad & Tobago,TT,GRULAC,1,1
+Tunisia,TN,African,1,1
+Turkey,TR,WEOG,1,1
+Turkmenistan,TM,Asia-Pacific,1,1
+Tuvalu,TV,Asia-Pacific,1,1
+Uganda,UG,African,1,1
+Ukraine,UA,Eastern European,1,1
+United Arab Emirates,AE,Asia-Pacific,1,1
+United Kingdom,GB,WEOG,1,1
+United States,US,WEOG,1,1
+Uruguay,UY,GRULAC,1,1
+Uzbekistan,UZ,Asia-Pacific,1,1
+Vanuatu,VU,Asia-Pacific,1,1
+Venezuela,VE,GRULAC,1,1
+Vietnam,VN,Asia-Pacific,1,1
+Yemen,YE,Asia-Pacific,1,1
+Yugoslavia,YU,Asia-Pacific,1,1
+Zambia,ZM,African,1,1
+Zimbabwe,ZW,African,1,1

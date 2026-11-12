@@ -1,0 +1,44 @@
+# UNGA voting extracts — codebook
+
+Source: Erik Voeten, Anton Strezhnev, and Michael Bailey,
+"United Nations General Assembly Voting Data",
+Harvard Dataverse, https://doi.org/10.7910/DVN/LEJUQZ
+via the public TidyTuesday / `unvotes` compilation
+(https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-03-23).
+
+Absences and non-memberships are already omitted from the long table
+(only recorded yes / no / abstain votes appear). Wide matrices therefore
+contain blanks when a member did not record a vote on that resolution.
+
+## Files
+
+| File | Contents |
+|---|---|
+| `votes_windowA.csv` | Country × resolution votes, calendar years 2010–2013. 192 countries, 340 resolutions. |
+| `votes_windowB.csv` | Same layout, calendar years 2016–2019. 192 countries, 428 resolutions. |
+| `resolutions_windowA.csv` | `rcid`, session, date, UN resolution symbol, short title for window A. |
+| `resolutions_windowB.csv` | Same for window B. |
+| `country_labels.csv` | `country`, `country_code` (ISO-2), `un_regional_group`, flags for window membership. |
+
+`un_regional_group` is an **interpretation label**. It is not a feature.
+The five official UN regional groups are African, Asia-Pacific, Eastern
+European, GRULAC (Latin American and Caribbean), and WEOG (Western
+European and Others). Turkey and Israel are coded WEOG; Cyprus is
+Asia-Pacific, matching official practice. The grouping is a snapshot
+and is not a claim about alliances.
+
+## Vote columns
+
+In the vote files the first two columns are `country` and `country_code`.
+Every later column is named `rcid_<id>` and takes one of
+
+- `yes`
+- `no`
+- `abstain`
+- blank (no recorded vote)
+
+## Required roster
+
+These ten countries appear in both windows. Use them in the named-unit table:
+
+United States, Russia, China, India, Brazil, South Africa, Israel, Iran, Ukraine, Turkey.
